@@ -43,6 +43,11 @@ button.accept-policy {
   line-height: inherit;
 }
 
+header ion-icon{
+  width: 28px;
+  height: 28px;
+}
+
 .footer {
   position: absolute;
   bottom: 0;

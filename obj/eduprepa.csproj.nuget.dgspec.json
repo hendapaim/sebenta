@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\eduprepa\\eduprepa\\eduprepa.csproj": {}
+    "C:\\Users\\henda\\Documents\\GitHub\\sebenta\\eduprepa.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\eduprepa\\eduprepa\\eduprepa.csproj": {
+    "C:\\Users\\henda\\Documents\\GitHub\\sebenta\\eduprepa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\eduprepa\\eduprepa\\eduprepa.csproj",
+        "projectUniqueName": "C:\\Users\\henda\\Documents\\GitHub\\sebenta\\eduprepa.csproj",
         "projectName": "eduprepa",
-        "projectPath": "C:\\Dev\\eduprepa\\eduprepa\\eduprepa.csproj",
+        "projectPath": "C:\\Users\\henda\\Documents\\GitHub\\sebenta\\eduprepa.csproj",
         "packagesPath": "C:\\Users\\henda\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\eduprepa\\eduprepa\\obj\\",
+        "outputPath": "C:\\Users\\henda\\Documents\\GitHub\\sebenta\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

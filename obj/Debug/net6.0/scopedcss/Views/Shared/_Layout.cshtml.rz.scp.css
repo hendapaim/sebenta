@@ -43,6 +43,11 @@ button.accept-policy[b-voubhkws2g] {
   line-height: inherit;
 }
 
+header ion-icon[b-voubhkws2g]{
+  width: 28px;
+  height: 28px;
+}
+
 .footer[b-voubhkws2g] {
   position: absolute;
   bottom: 0;
