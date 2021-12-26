@@ -43,11 +43,6 @@ button.accept-policy {
   line-height: inherit;
 }
 
-header nav.navbar-expand-sm{
- height: var(--header-height);
- background-color: black;
-}
-
 .footer {
   position: absolute;
   bottom: 0;

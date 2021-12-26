@@ -43,11 +43,6 @@ button.accept-policy[b-voubhkws2g] {
   line-height: inherit;
 }
 
-header nav.navbar-expand-sm[b-voubhkws2g]{
- height: var(--header-height);
- background-color: black;
-}
-
 .footer[b-voubhkws2g] {
   position: absolute;
   bottom: 0;
