@@ -1,0 +1,22 @@
+﻿@page "/perfil"
+
+<PageTitle>Perfil</PageTitle>
+
+@using sebent.Data
+
+<div class="text-center">
+    
+    <h1>Perfil</h1>
+    @foreach (var item in Summaries)
+    {
+        <h5>@item</h5>
+    }
+
+</div>
+
+@code {
+    private static readonly string[] Summaries = new[]
+    {
+        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+    };
+}

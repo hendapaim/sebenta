@@ -1,18 +1,18 @@
-﻿{
+{
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:55685",
-      "sslPort": 44312
+      "applicationUrl": "http://localhost:54359",
+      "sslPort": 44352
     }
   },
   "profiles": {
-    "eduprepa": {
+    "sebent": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7161;http://localhost:5127",
+      "applicationUrl": "https://localhost:7046;http://localhost:5280",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

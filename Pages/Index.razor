@@ -1,0 +1,28 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<div class="text-center">
+    <h1>Bem-Vindo a sua sebenta</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <div class="frase-inspiradora">
+        <p>"The most difficult thing is the decision to act. The rest is merely tenacity."</p>
+        <p class="autor-frase">- Amelia Earhart</p>
+    </div>
+    
+    <div class="fau">
+        <input type="checkbox" value="Faculdade de Engenharia"  @onclick="Curso"/> Faculdade de Engenharia
+    </div>
+</div>
+
+@code
+{
+    private bool curso = false;
+
+    private void Curso()
+    {
+        curso = !curso; 
+    }
+}
+@* <SurveyPrompt Title="How is Blazor working for you?" /> *@
