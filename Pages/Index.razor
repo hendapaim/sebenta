@@ -1,16 +1,24 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Sebefree | Bem-Vindo a sua sebenta</PageTitle>
 
-<div class="text-center">
+<div class="text-center container">
     <h1>Bem-Vindo a sua sebenta</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>UM APLICATIVO EDUCACIONAL, PARA ACOMPANHAMENTO ESCOLAR</p>
 
     <div class="frase-inspiradora">
-        <p>"The most difficult thing is the decision to act. The rest is merely tenacity."</p>
-        <p class="autor-frase">- Amelia Earhart</p>
+        <q>The most difficult thing is the decision to act. The rest is merely tenacity.</q>
+        <br>
+        <cite class="autor-frase">- Amelia Earhart</cite>
     </div>
-    
+
+    <div class="card border-success mb-3 doar" style="max-width: 30rem;">
+        <div class="card-body text-success">
+            <h5 class="card-title">Boas festas de fim de ano, da comunidade do sebefree 🎉</h5>
+            <p class="card-text">Se você está conseguindo tirar proveito do conteúdo do sebefree, agora é um ótimo momento para fazer sua doação e apoiar nossa missão sem fins lucrativos.</p>
+        </div>
+        <NavLink class="card-header nav-link btn btn-success" href="doar">Doar</NavLink>
+    </div>
     <div class="fau">
         <input type="checkbox" value="Faculdade de Engenharia"  @onclick="Curso"/> Faculdade de Engenharia
     </div>

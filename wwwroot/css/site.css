@@ -34,9 +34,21 @@ a, .btn-link {
     color: red;
 }
 
+.inspiradora {
+    padding: 12.5px 25px;
+    margin-top: 30px;
+    line-height: 3;
+}
+.autor-frase{
+    color: #858591;
+}
+
+.doar {
+    margin: 20px auto;
+}
 .fau{
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
